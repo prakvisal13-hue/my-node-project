@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1773821884954" clover="3.2.0">
-  <project timestamp="1773821884954" name="All files">
-    <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2" elements="14" coveredelements="14" complexity="0" loc="10" ncloc="10" packages="2" files="2" classes="2"/>
+<coverage generated="1773824761803" clover="3.2.0">
+  <project timestamp="1773824761803" name="All files">
+    <metrics statements="14" coveredstatements="14" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3" elements="20" coveredelements="20" complexity="0" loc="14" ncloc="14" packages="2" files="2" classes="2"/>
     <package name="Ignor build folders.src">
       <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <file name="sum.js" path="C:\my-node-project\Ignor build folders\src\sum.js">
@@ -14,14 +14,18 @@
       </file>
     </package>
     <package name="src">
-      <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="sum.js" path="C:\my-node-project\src\sum.js">
-        <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
       </file>
     </package>
   </project>

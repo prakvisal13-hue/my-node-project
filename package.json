@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- 
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
@@ -13,8 +12,14 @@
   "author": "Prak visal",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "eslint": "^10.0.3",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jest": "^29.15.0",
+    "globals": "^17.4.0",
+    "husky": "^9.1.7",
     "jest": "^30.3.0",
+    "lint-staged": "^16.4.0",
     "prettier": "^3.8.1"
   }
 }
